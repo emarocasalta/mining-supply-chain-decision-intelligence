@@ -1,0 +1,6 @@
+supplier_id,supplier_name,reliability_score,base_lead_time_days
+S01,Supplier_01,0.7765049300492181,3
+S02,Supplier_02,0.8462627482455416,4
+S03,Supplier_03,0.8192301327799346,4
+S04,Supplier_04,0.8988548399557165,1
+S05,Supplier_05,0.8255185554687273,3

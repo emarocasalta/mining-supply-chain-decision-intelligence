@@ -1,0 +1,9 @@
+mine_id,mine_name,altitude_m,distance_km,priority_level
+M01,Mine_01,4326,546,1
+M02,Mine_02,4659,294,3
+M03,Mine_03,4060,410,3
+M04,Mine_04,4494,538,1
+M05,Mine_05,4330,167,1
+M06,Mine_06,4295,452,1
+M07,Mine_07,4244,179,2
+M08,Mine_08,3321,210,2

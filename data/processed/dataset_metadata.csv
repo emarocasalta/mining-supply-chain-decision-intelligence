@@ -1,0 +1,2 @@
+dataset_name,rows,columns,date_start,date_end,created_features
+feature_engineered_dataset,35088,104,2024-01-01,2025-12-31,temporal_lags; rolling_means; rolling_stds; ratios; aggregated_business_metrics; cyclical_encodings

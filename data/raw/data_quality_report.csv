@@ -1,0 +1,7 @@
+check,value,status
+rows,35088,ok
+null_values,0,ok
+negative_demand,0,ok
+negative_stock,0,ok
+service_level_range,0,ok
+risk_score_range,0,ok

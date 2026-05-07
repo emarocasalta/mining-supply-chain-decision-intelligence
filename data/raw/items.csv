@@ -1,0 +1,7 @@
+item_id,item_name,unit_cost,holding_cost_factor,criticality,base_consumption
+I01,Diesel,1.15,0.1,5,28
+I02,Explosives,38.0,0.18,5,6
+I03,Spare_Parts,24.0,0.14,4,12
+I04,Lubricants,8.0,0.08,3,9
+I05,Reagents,16.5,0.12,4,7
+I06,Tires,210.0,0.16,5,2
