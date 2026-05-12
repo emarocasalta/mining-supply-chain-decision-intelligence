@@ -1,43 +1,138 @@
 # Mining Supply Chain Decision Intelligence
 
-Dashboard ejecutivo y sistema de apoyo a decisiones para supply chain minera, con enfoque en logística remota, riesgo operativo y optimización de reabastecimiento.
+Executive Decision Support System for mining supply chain operations, combining Machine Learning, Reinforcement Learning-inspired optimization and interactive analytics through Streamlit.
 
-## Objetivo
-El proyecto simula una operación de supply chain en minería de altura y combina:
-- generación de datos sintéticos,
-- análisis exploratorio,
+---
+
+## Live Demo
+
+### Streamlit Application
+https://mining-supply-chain-decision-intelligence-v6fhbvqsjuexeov75enh.streamlit.app/
+
+### GitHub Repository
+https://github.com/emarocasalta/mining-supply-chain-decision-intelligence
+
+---
+
+# Project Overview
+
+Mining operations in remote environments face significant supply chain challenges:
+
+- stockout risk,
+- extreme weather disruptions,
+- long replenishment lead times,
+- elevated logistics costs,
+- operational continuity pressure.
+
+This project simulates a real-world mining supply chain environment and proposes an intelligent decision-support framework capable of:
+
+- predicting operational risk  
+- optimizing replenishment decisions  
+- simulating inventory policies  
+- monitoring operational KPIs  
+- improving executive visibility through a control tower dashboard
+
+---
+
+# Business Problem
+
+In high-altitude mining operations, inventory shortages and delayed replenishment can generate:
+
+- operational downtime,
+- production losses,
+- emergency logistics costs,
+- reduced service levels,
+- unstable inventory performance.
+
+Traditional reorder-point policies are often static and unable to dynamically react to:
+
+- predictive risk,
+- climate disruptions,
+- demand variability,
+- operational pressure.
+
+---
+
+# Proposed Solution
+
+The project combines:
+
+- synthetic supply chain simulation,
+- supervised machine learning,
+- reinforcement learning-inspired decision logic,
+- executive analytics dashboards,
+- interactive scenario simulation.
+
+The platform acts as a lightweight **Supply Chain Control Tower** for intelligent replenishment and operational monitoring.
+
+---
+
+# Core Features
+
+## Executive Dashboard
+Interactive Streamlit dashboard including:
+
+- operational KPIs,
+- risk analytics,
+- inventory monitoring,
+- replenishment recommendations,
+- historical operational analysis,
+- cost simulation,
+- CSV export functionality.
+
+---
+
+## Predictive Risk Engine
+Supervised ML model for predicting next-day stockout probability.
+
+Includes:
 - feature engineering,
-- modelo supervisado para predicción de riesgo,
-- lógica de recomendación tipo RL,
-- dashboard ejecutivo en Streamlit.
+- model scoring,
+- operational risk indicators,
+- decision alert levels.
 
-## Problema de negocio
-En operaciones mineras remotas, los quiebres de stock, el clima extremo y los tiempos de reposición afectan la continuidad operativa y elevan los costos logísticos.
+---
 
-## Solución propuesta
-El proyecto resuelve el problema mediante:
-- datos sintéticos realistas,
-- modelo predictivo de stockout,
-- recomendación optimizada de reabastecimiento,
-- dashboard tipo consultora con KPIs, alertas e insights de negocio.
+## Replenishment Optimization Engine
+Custom decision engine inspired by Reinforcement Learning concepts.
 
-## Stack tecnológico
-- Python
-- Pandas / NumPy
-- Scikit-learn
-- XGBoost
-- PyTorch
-- Gymnasium
-- Streamlit
-- Plotly
-- Matplotlib / Seaborn
+The recommendation layer dynamically adjusts replenishment quantities based on:
 
-## Estructura del proyecto
+- inventory pressure,
+- predictive stockout risk,
+- weather conditions,
+- expected demand,
+- warehouse capacity constraints.
+
+---
+
+## Cost Simulation Layer
+Simulates financial impact of inventory decisions:
+
+- holding cost,
+- stockout cost,
+- transport cost,
+- service level impact.
+
+Allows comparison between:
+- traditional SAP-style baseline policy,
+- optimized ML-driven recommendation.
+
+---
+
+# System Architecture
+
 ```text
-app.py
-engine.py
-requirements.txt
-notebooks/
-data/
-models/
-assets/
+Synthetic Data Generation
+        ↓
+Exploratory Data Analysis
+        ↓
+Feature Engineering
+        ↓
+Supervised ML Model
+        ↓
+Risk Scoring Layer
+        ↓
+RL-Inspired Optimization Engine
+        ↓
+Executive Streamlit Dashboard
